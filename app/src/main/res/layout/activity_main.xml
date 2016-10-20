@@ -9,6 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.egco428.basicsqlite.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:id="@+id/firstName"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editFirst"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLast"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -20,15 +49,8 @@
             android:layout_height="wrap_content"
             android:text="Add new"
             android:id="@+id/addBtn"
-            android:onClick="onClick" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Delete 1st"
-            android:id="@+id/deleteBtn"
-            android:layout_marginLeft="50dp"
-            android:onClick="onClick" />
+            android:onClick="onClick"
+            android:layout_marginTop="60dp" />
 
     </LinearLayout>
 
@@ -36,6 +58,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@android:id/list"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="110dp" />
 
 </RelativeLayout>
